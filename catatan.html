@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CATATAN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Assets/JojoBank Logo.png">
+</head>
+<body>
+    <header>
+        <img src="Assets/JojoBank Logo.png" alt="">
+        <div class="header-text">
+            <h1 style="color: white;">Hi, Budi</h1>
+            <h2 style="color: #318AF2;"><i>Welcome to JOJO BANK!</i></h2>
+        </div>
+        <a href="register.html" class="regist">Register</a>
+    </header>
+    <div class="body-cont">
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="home.html" style="color: #FF7D7D;">HOME</a></li>
+                    <li style="background-color: #FAA94A;">
+                        <a href="catatan.html" style="color: white;">CATATAN</a>
+                        <ul>
+                            <li><a style="color: white;" href="pemasukan.html">Tabungan</a></li>
+                            <li><a style="color: white;" href="pengeluaran.html">Pengeluaran</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="materi.html" style="color: #B1D7B4;">MATERI</a></li>
+                    <li><a href="quiz.html" style="color: #96E0E5;">QUIZ</a></li>
+                    <li><a href="video.html" style="color: #DE60B3;">VIDEO</a></li>
+                    <li><a href="faq.html" style="color: #C96CF4;">FAQ</a></li>
+                </ul>                
+            </nav>
+        </aside>
+        <div class="content">
+            <div class="catatan-cont">
+                <div class="catatan-left" style="background-color: #eebb81;">
+                    <div class="cat-edit">
+                        <h2 style="text-shadow: 3px 3px #91C483; color: rgb(255, 255, 255);">Tabungan</h2>
+                        <a href="pemasukan.html" class="edit-logo">
+                            <img src="Assets/edit.png" alt="">
+                            <div class="overlay-cat">
+                                <p class="text-overlay">Catat</p>
+                            </div>
+                        </a>
+                    </div>
+                    <h4>Target tabungan kamu: Rp 1.599.000</h4>
+                    <div class="target">
+                        <img src="Assets/NikeShoes.png" alt="">
+                        <h3>Nike Air Jordan 1 Mid SE</h3>
+                    </div>
+                    <div>
+                        <h3 style="color: #24A19C; text-shadow:3px 3px #ffffff;">Progress Tabungan</h3>
+                        <label for="prog-in">Terkumpul:</label>
+                        <progress id="prog-in" value="1000000" max="1599000"></progress>
+                    </div>
+                    
+                </div>
+                <div class="catatan-right" style="background-color: #eebb81;">
+                    <div class="cat-edit">
+                        <h2 style="text-shadow: 3px 3px #FF6464; color: white;">Pengeluaran</h2>
+                        <a href="pengeluaran.html" class="edit-logo">
+                            <img src="Assets/edit.png" alt="">
+                            <div class="overlay-cat">
+                                <p class="text-overlay">Catat</p>
+                            </div>
+                        </a>
+                    </div>
+                    <h4>Hari ini pengeluaran kamu sebesar:</h4>
+                    <h3 class="am-out">Rp 15.000</h3>
+                    <h3 style="color: #277BC0; text-shadow: 2px 2px #F7D060;">Limit Pengeluaran</h3>
+                    <div class="limit-out">
+                        <label for="prog-out">0</label>
+                        <progress id="prog-out" value="15000" max="35000"></progress>
+                        <label for="prog-out">35.000</label>
+                    </div>
+                    <div class="cat-rincian">
+                        <h5 style="font-weight: light;"><center>Rincian Pengeluaran</center></h5>
+                        <div class="detail-rincian">
+                            <div class="rincian-kiri">
+                                Jajan <br>
+                                Ongkos <br>
+                                <b>Total</b>
+                            </div>
+                            <div class="rincian-kanan">
+                                Rp 7.000 <br>
+                                Rp 8.000 <br>
+                                <b style="border-top: 2px solid black;">Rp 15.000</b>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Made by: </p>
+        <p>Aurelia Shannon 2440026843, Nadinda Naura Syifa 2440106913, Rachel Angela Yaputra 2440048195</p> 
+    </footer>
+</body>
+</html>

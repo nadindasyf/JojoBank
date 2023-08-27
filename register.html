@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Assets/JojoBank Logo.png">
+</head>
+<body>
+    <header>
+        <img src="Assets/JojoBank Logo.png" alt="">
+        <div class="header-text">
+            <h1 style="color: white;">Hi, Budi</h1>
+            <h2 style="color: #318AF2;"><i>Welcome to JOJO BANK!</i></h2>
+        </div>
+    </header>
+    <a href="home.html" class="a-home">< Home</a>
+    <div class="content-register">
+        <form action="login.html" method="get" class="form-regist">
+            <div>
+                <label for="name">Nama Anak</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="male">Gender Anak</label>
+                <div class="gender-radio">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Laki-laki</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Perempuan</label>
+                </div>
+            </div>
+            <div>
+                <label for="tglLahir">Tanggal Lahir</label>
+                <input type="date" name="tglLahir" id="tglLahir">
+            </div>
+            <div>
+                <label for="email">Email Orang Tua</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <center><input type="submit" value="Register"></center>
+            <center style="font-size: smaller;">Sudah punya akun? <a href="login.html">Login</a></center>
+        </form>  
+        <script src="validation.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABUNGAN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Assets/JojoBank Logo.png">
+</head>
+<body>
+    <header>
+        <img src="Assets/JojoBank Logo.png" alt="">
+        <div class="header-text">
+            <h1 style="color: white;">Hi, Budi</h1>
+            <h2 style="color: #318AF2;"><i>Welcome to JOJO BANK!</i></h2>
+        </div>
+        <a href="register.html" class="regist">Register</a>
+    </header>
+    <div class="body-cont">
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="home.html" style="color: #FF7D7D;">HOME</a></li>
+                    <li class="dropdown" style="background-color: #FAA94A;">
+                        <a href="catatan.html" style="color: white;">CATATAN</a>
+                        <ul class="dropdown-content">
+                            <li><a style="color: white;" href="pemasukan.html">Tabungan</a></li>
+                            <li><a style="color: white;" href="pengeluaran.html">Pengeluaran</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="materi.html" style="color: #B1D7B4;">MATERI</a></li>
+                    <li><a href="quiz.html" style="color: #96E0E5;">QUIZ</a></li>
+                    <li><a href="video.html" style="color: #DE60B3;">VIDEO</a></li>
+                    <li><a href="faq.html" style="color: #C96CF4;">FAQ</a></li>
+                </ul>                
+            </nav>
+        </aside>
+        <div class="content">
+            <form action="catatan.html">
+                <div>
+                    <label for="tanggal">Tanggal</label>
+                    <input type="date" name="tanggal" id="tanggal">
+                </div>
+                <div>
+                    <label for="menabung">Jumlah menabung</label>
+                    <input type="number" name="menabung" id="menabung">
+                </div>
+                <center><input type="submit" value="Simpan"></center>               
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>Made by: </p>
+        <p>Aurelia Shannon 2440026843, Nadinda Naura Syifa 2440106913, Rachel Angela Yaputra 2440048195</p> 
+    </footer>
+</body>
+</html>
